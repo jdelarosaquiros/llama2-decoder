@@ -61,7 +61,7 @@ As the charts above show, the probability of the tokens start fairly even, and t
 ## Results
 
 | Layers | BLEU | Rouge-L | BERTScore |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | Layer 8 | 0.000 | 0.004 | 0.728 |
 | Layer 16 | 0.000 | 0.002 | 0.690 |
 | Layer 24 | 0.008 | 0.086 | 0.760 |
