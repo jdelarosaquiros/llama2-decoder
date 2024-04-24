@@ -67,8 +67,6 @@ As the charts above show, the probability of the tokens start fairly even, and t
 | Layer 24 | 0.008 | 0.086 | 0.760 |
 | Layer 32 | 0.020 | 0.173 | 0.632 |
 
-Note: Results were not great because the model was quantize to 4 bits.
-
 As expected, the first layers had lower scores because their token probabilities were more evenly distributed than the subsequent ones, so the tokens were chosen more randomly. As the layers increased, the entropy of the probability distribution decreased, and some values started to stand out among the rest. My results show that this change led to an increase in performance, and this makes sense because the model was basically narrowing down the tokens to most likely ones to be the solution. The increase in performance was most noticeble in the BLEU and Rouge-L scores because compare exact words, and the higher layers typically selected more right words than the lower layers. Though, the BERTScore was less predictable probably because the outputs were not of enough quality for the BERT to reliably evaluate the outputs.
 
 
