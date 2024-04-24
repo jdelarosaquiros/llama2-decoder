@@ -46,7 +46,7 @@ the final layer's output is used to compute probabilities for the next token in 
 likelihood of a sequence given a model can be computed by summing the log probabilities of each token
 in the sequence, according to the model's predictions.
 
-## Early Exit Layers (Premature Vocabulary Distribution Layers) vs. Mature Layer (Last Layer – Layer 32)
+## Premature Layers (Early Exit Layers) vs. Mature Layer (Last Layer)
 | Sample 1  | Sample 2 |
 | ------------- | ------------- |
 | ![image](https://github.com/jdelarosaquiros/llama2-decoder/assets/86489701/a39f008f-1018-4eef-bf5f-72ebbaa2781f) | ![image](https://github.com/jdelarosaquiros/llama2-decoder/assets/86489701/ca83cb12-6c32-4108-802f-7a0c75be7b6e) |
